@@ -86,13 +86,13 @@ class LinkedList {
 
 const list = new LinkedList();
 
-list.size();
+console.log(list.size());
 list.append(1);
 list.append(2);
 list.append(3);
-list.size(); 
+console.log(list.size()); 
 
+console.log(list.find(2));
 
-
-
-
+list.insert(2, "a")
+console.log(list.size());
